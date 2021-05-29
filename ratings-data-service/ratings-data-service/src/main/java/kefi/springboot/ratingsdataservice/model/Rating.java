@@ -2,6 +2,7 @@ package kefi.springboot.ratingsdataservice.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @author Kalaivani Sundaram
@@ -10,7 +11,9 @@ import lombok.Data;
  */
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class Rating {
+
     private String movieId;
     private Integer rating;
 }

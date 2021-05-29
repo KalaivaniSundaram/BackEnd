@@ -1,8 +1,7 @@
-package kefi.springboot.movieinfoservice.model;
+package kefi.springboot.moviecatalogservice.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 /**
  * @author Kalaivani Sundaram
@@ -11,10 +10,8 @@ import lombok.NoArgsConstructor;
  */
 @Data
 @AllArgsConstructor
-@NoArgsConstructor
-public class Movie {
+public class Rating {
 
     private String movieId;
-    private String name;
-
+    private Integer rating;
 }
